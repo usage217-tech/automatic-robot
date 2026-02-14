@@ -1,0 +1,11 @@
+# Absolute latest nightly build of yt-dlp
+--pre yt-dlp[default]
+
+# Latest stable version of the Telegram Bot wrapper (v22.6 as of Feb 2026)
+python-telegram-bot[job-queue]==22.6
+
+# Required for high-quality video/audio merging
+ffmpeg-python
+
+# Web server for Render port binding
+flask
